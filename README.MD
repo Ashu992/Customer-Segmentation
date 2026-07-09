@@ -24,7 +24,7 @@ The core solution features a **Gaussian Mixture Model (GMM)** clustering engine 
 ## 🧬 Analytical Workflow
 1. **Feature Engineering:** Synthesized "Total Spend" and "Parental Status" to identify household economic pressure.
 2. **Preprocessing:** Applied Log-Transformation to normalize skewed financial data and `StandardScaler` for feature parity.
-3. **Dimensionality Reduction:** Utilized **PCA** to condense features while retaining 80%+ variance, eliminating noise for better cluster separation.
+3. **Dimensionality Reduction:** Utilized **PCA** to condense features while retaining 96.77% variance, eliminating noise for better cluster separation.
 4. **Clustering Engine:** Implemented **Gaussian Mixture Models (GMM)** to allow for "soft clustering," providing a more nuanced segment boundary than traditional K-Means.
 
 ---
